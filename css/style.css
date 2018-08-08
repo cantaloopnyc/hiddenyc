@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300|Merriweather|Raleway:800|Cinzel+Decorative:700');
+
+/*font-family: 'Josefin Sans', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Cinzel Decorative', cursive;*/
+
+/* Here are the RGB codes for the colors that we are using:
+peach-242,186,127; sand-203,191,175; blue-114,161,207; emerald-11,177,155; lavender-162,154,191*/
+
+body, html{
+    height: 100%;
+}
+
+#mainpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*added a centered clickable logo that directs you to homepage*/
+
+header{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+.headpara{
+    display: inline;
+    top: -20px;
+    font-size:355%;
+    font-family: 'Josefin Sans', sans-serif;
+    left: 7%;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.homeintro{
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+}
+
+.homeintro p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#grouplogoindex{
+    height:500px;
+    width: 500px;
+}
+
+#grouplogoindex img{
+    width: 100%;
+    height: 100%;
+}
+
+.boroughs{
+    display: flex;
+    flex-direction: column;
+    height:80%;
+}
+
+.manhome{
+    background-image: url("../images/manhattan2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:40%;
+    font-size: 250%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out; 
+}
+
+.manhome:hover{
+     filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.brookhome{
+    background-image: url("../images/brooklyn1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
+    color:white;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out; 
+}
+
+.brookhome:hover{
+     filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.queenshome{
+    background-image: url("../images/queens1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
+    color: white;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.queenshome:hover{
+     filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.bronxhome{
+    background-image: url("../images/bronx1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
+    color:white;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out;
+}
+
+.bronxhome:hover{
+     filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+
+.statenhome{
+    background-image: url("../images/statenisland.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 250%;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.6);
+    color:white;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .4s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.statenhome:hover{
+     filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+
+.left{
+    text-align: left;
+    padding-left: 20px;
+    
+}
+
+.right{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.mantitle{
+    display: block;
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+.brooktitle{
+    display: block;
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+.queenstitle{
+    display: block;
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+.bronxtitle{
+    display: block;
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+.statentitle{
+    display: block;
+    background: linear-gradient(90deg, rgb(255,255,255), rgb(162,154,191), rgb(242,186,127), rgb(11,177,155), rgb(203,191,175), rgb(114,161,207),rgb(255,255,255));
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    color: black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    overflow: hidden;
+}
+
+#manborough{
+    display: flex;
+    flex-direction: column;
+    /*background-image: url("../images/vintageback.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    padding-bottom: 30px;
+}
+
+#bronxborough {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#brookborough {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#siborough {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+#queensborough {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+.place1{
+    margin-top: 5px;
+}
+
+.headtitle{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.boroimg{
+    flex: 33.33%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+    height: 400px;
+    width:200px;
+    padding: 5px;
+    margin: 10px;
+}
+/*need to figure out why images stretch out in the library display only. We tested on laptop and 32 in display and it was fine*/
+
+.photobw{
+    display: flex;
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .6s ease-in-out; 
+}
+
+.photobw:after{
+    content: "";
+    clear: both;
+    display: table
+}
+
+.photobw:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}
+/*changes photo from B&W to color*/
+
+a:link {
+    color: white;
+    text-decoration: none;
+    
+}
+a:visited {
+    color: white;
+}
+/*added this because the link was autmatically changing to a color I never assigned to it. So to "negate" it I had to add the visited property to get the link to stay in the color I wanted*/
+
+p a:link{
+    color:black;
+    text-decoration: underline;
+}
+
+p a:visited{
+    color:black;
+}
+/*added this because the link was autmatically changing to a color I never assigned to it. So to "negate" it I had to add the visited property to get the link to stay in the color I wanted*/
